@@ -24,8 +24,8 @@ header {
 }
 
 aside {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 30%;
     background-color: violet;
     float: left;
 }
