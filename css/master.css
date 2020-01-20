@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+}
+
+aside {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    float: left;
+}
+main {
+    width: 80%;
+    height: 70%;
+    background-color: darkred;
+    float:right;
+}
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: lightblue;
+    float: none;
+    position: absolute;
+    bottom: 0;
+}
