@@ -11,17 +11,27 @@
   }
 
 .container {
+    width: 920px;
+    height: 820px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.container-2 {
     width: 900px;
     height: 800px;
-    background-color: lightgrey;
-    position: relative;
     margin: 0 auto;
+    position: relative;
+    top:10px;
 }
 
 header {
     width: 100%;
     height: 20%;
     background-color: yellow;
+    margin-bottom: 10px;
 }
 
 aside {
@@ -30,17 +40,18 @@ aside {
     background-color: violet;
     float: left;
 }
+
 main {
-    width: calc(100% - 300px);
-    height: calc(100% - 300px);
+    width: calc(100% - 305px);
+    height: calc(100% - 305px);
     background-color: darkred;
     float:right;
 }
+
 footer {
     width: 100%;
     height: 10%;
     background-color: lightblue;
-    float: none;
     position: absolute;
     bottom: 0;
 }
